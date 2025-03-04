@@ -35,10 +35,6 @@ public class Bootstrap : MonoBehaviour
         _itemsController.OnUpdate();
     }
 
-    private void FixedUpdate() {
-        
-    }
-
     private void OnDisable() {
         _itemsController.OnDisable();
     }

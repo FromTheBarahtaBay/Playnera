@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
 
-public class ItemsController
+public class ItemsController : IUpdates
 {
     private Bootstrap _bootstrap;
     private List<ItemComponentsConteiner> _items = new();
